@@ -1,5 +1,41 @@
-Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
->>> def hello ():
-    print ("Engineering Internet of Things Systems")
+def hello ():
+    print ("Engineering Internet of Things Systems - ECSE3038")
     
+def validatePassword(password):
+    numCount = 0;
+    
+    if len(password) >= 8 and password.isalnum(): 
+        for value in password:
+            if element.isdigit():
+                numCount += 1 
+        
+        if numCount >= 2:
+            return True
+        else:
+            return False
+            
+
+def sumUpToN(num):
+    sum = 0
+    num += 1
+    
+    if num < 1:
+        return -1
+        
+    
+    else:
+        for index in range (num):
+            sum += index 
+        return sum 
+        
+ # Part 1
+ hello ()
+ print ("/n")
+ 
+ # Part 2
+ print(validatePassword  qua3mgi4e"))       
+ print ("/n")
+ 
+ # Part 3
+ sum = sumUptoN(6)
+ print (sum)
